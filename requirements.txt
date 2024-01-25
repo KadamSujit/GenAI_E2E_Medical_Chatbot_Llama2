@@ -1,8 +1,9 @@
 #When version of libs are mentioned, then even in future any of the lib gets deprecated or updated with latest version, Our project keeps running successfully with mentioned versions.
 
 ctransformers==0.2.5 #needed for langchain
-sentence-transformers==2.2.2 #required for embedding generation. It is opensource lib
+sentence_transformers==2.2.2 #required for embedding generation. It is opensource lib. We use model all-MiniLM-L6-v2
 pinecone-client #for vector db
 langchain==0.0.225 #for integrating llms
 flask #to create frontend
 ipykernel #for notebook
+pypdf #for reading pdfs
