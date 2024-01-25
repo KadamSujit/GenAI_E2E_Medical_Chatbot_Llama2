@@ -1,0 +1,5 @@
+ctransformers==0.2.5 #needed for langchain
+sentence-transformers==2.2.2 #required for embedding generation. It is opensource lib
+pinecone-client #for vector db
+langchain==0.0.225 #for integrating llms
+flask #to create frontend
