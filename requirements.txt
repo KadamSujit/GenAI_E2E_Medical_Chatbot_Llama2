@@ -7,3 +7,4 @@ langchain==0.0.225 #for integrating llms
 flask #to create frontend
 ipykernel #for notebook
 pypdf #for reading pdfs
+chromadb
