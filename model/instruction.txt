@@ -5,3 +5,6 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 
 ## From the following link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+
+## After downloading, keep it in model folder of this project
+## While deploying, we can store this model in S3 bucket or any other place.
