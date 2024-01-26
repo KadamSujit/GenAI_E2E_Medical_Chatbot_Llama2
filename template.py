@@ -11,7 +11,7 @@ list_of_files = [
     "src/helper.py", #helper functions
     "src/prompt.py", 
     ".env", #for storing environment variables
-    # "requirements.txt" #for installing required libs
+     "requirements.txt" #for installing required libs
     "setup.py", #for setting up project
     "research/trials.ipynb", # for experimenting with notebook
     "app.py", # appplication file for running flask app

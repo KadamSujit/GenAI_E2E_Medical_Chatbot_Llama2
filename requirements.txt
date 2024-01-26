@@ -8,3 +8,6 @@ flask #to create frontend
 ipykernel #for notebook
 pypdf #for reading pdfs
 chromadb
+python-dotenv #for reading details from .env file
+
+-e . # -e . is used to build the packages. when we give -e . then it automatically triggers setup.py
