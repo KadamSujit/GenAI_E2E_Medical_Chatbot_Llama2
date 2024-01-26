@@ -30,9 +30,9 @@ print(embeddings)
 # '''pinecone.init(api_key=PINECONE_API_KEY,
 #               environment=PINECONE_API_ENV)'''
 # #use below method to initialize Pinecone
-# from pinecone import Pinecone, ServerlessSpec
-# pc = Pinecone(api_key=PINECONE_API_KEY)
-# index = pc.Index("medical-chatbot")
+from pinecone import Pinecone, ServerlessSpec
+pc = Pinecone(api_key=PINECONE_API_KEY)
+index = pc.Index("medical-chatbot")
 
 # #Storing the embeddings to vectordb
 # docsearch=Pinecone.from_texts([t.page_content for t in text_chunks], embeddings, index_name=index)
